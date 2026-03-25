@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 
 const ALGORITHM = 'aes-256-cbc';
-const KEY_SIZE = 32;  // bytes (256 bits)
+
 const IV_SIZE = 16;   // bytes (128 bits)
 
 
@@ -44,7 +44,7 @@ function decrypt(encryptedData, password) {
 }// 1. Decodifique o base64
   
 
-// Teste
+
 const texto = "Olá mundo!";
 const senha = "minha-senha-secreta";
 
